@@ -8,7 +8,7 @@ dotenv.config({
 
 const port = process.env.PORT || 5000
 
-app.get(port,(req,res)=>{
+app.get("/",(req,res)=>{
     res.send("Server Running ")
 })
 
